@@ -1,0 +1,47 @@
+img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.1); 
+}
+
+div.impP {
+  display: flex;
+  align-items: baseline;
+
+}
+
+.divCard {
+  width: 65px;
+  height: auto;
+margin: 20px;
+}
+.imgP {
+  margin: 5px;
+ 
+  cursor: pointer; 
+  padding: 8px;
+  border: solid 1px rgb(190, 190, 190);
+  border-radius: 10px;
+}
+
+.CardSelect {
+  display: flex;
+  align-items: baseline;
+margin-top: 10px;
+  margin-left: 40px;
+  flex-wrap: wrap;
+  border: solid 3px rgb(247, 231, 231);
+  left: 0; 
+  z-index: 1;
+
+}
+
+body .CardSelect {
+  background-color: rgb(206, 203, 203);
+  border-radius: 10px;
+  padding-right: 20px;
+  margin-right: 340px;
+}
